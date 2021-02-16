@@ -13,7 +13,7 @@ fi
 
 echo "Test case: $input_file_path"
 
-program_output=$(cat $input_file_path | ./light_controller)
+program_output=$(cat $input_file_path | ./project_2_4)
 
 time=0
 red_light_time=0
